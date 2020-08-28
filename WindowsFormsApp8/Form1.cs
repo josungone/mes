@@ -53,7 +53,12 @@ namespace WindowsFormsApp8
             mySqlDataAdapter.Fill(dataTable);
             dataGridView2.DataSource = dataTable;
         }
-
+        /////////////////////
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
